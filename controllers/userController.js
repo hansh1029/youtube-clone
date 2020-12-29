@@ -6,10 +6,10 @@ export const logout = (req, res) =>
   res.render("Logout", { pageTitle: "Logout" });
 
 export const userDetail = (req, res) =>
-  res.render("User Detail", { pageTitle: "User Detail" });
+  res.render("UserDetail", { pageTitle: "User Detail" });
 
 export const editProfile = (req, res) =>
-  res.render("Edit Profile", { pageTitle: "Edit Profile" });
+  res.render("EditProfile", { pageTitle: "Edit Profile" });
 
 export const changePassword = (req, res) =>
-  res.render("Change Password", { pageTitle: "Change Password" });
+  res.render("ChangePassword", { pageTitle: "Change Password" });
