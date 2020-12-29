@@ -1,4 +1,10 @@
 extends layouts/main
 
 block content
-    p Edit Profile
+    .form__container
+        form(action=routes.editProfile, method="post")
+            label(for="avatar") Avatar
+            input(type="file")
+            input(type="email", name="email", placeholder="Email")
+            input(type="password", name="password", placeholder="Password")
+            input(type="submit",value="Log In")

@@ -18,5 +18,3 @@ export const editVideo = (req, res) =>
 
 export const deleteVideo = (req, res) =>
   res.render("deleteVideo", { pageTitle: "Delete Video" });
-
-export const videos = (req, res) => res.send("Videos");
