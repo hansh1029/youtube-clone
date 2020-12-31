@@ -124,8 +124,8 @@ table {
 }
 a {
   all: unset;
+  color: inherit;
   cursor: pointer;
-  color: white;
 }
 
 *,
@@ -136,6 +136,7 @@ input {
 input,
 button {
   border: none;
+  box-sizing: border-box;
   &:focus,
   &:active {
     outline: none;
