@@ -16,3 +16,9 @@ https://mongoosejs.com/docs/connections.html
 
 ## webpack
 https://webpack.js.org/
+
+## flatuicolors
+https://flatuicolors.com/
+
+## codepen
+https://codepen.io/

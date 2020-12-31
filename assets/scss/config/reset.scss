@@ -133,7 +133,8 @@ input {
   box-sizing: border-box;
 }
 
-input {
+input,
+button {
   border: none;
   &:focus,
   &:active {
