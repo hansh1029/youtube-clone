@@ -13,3 +13,6 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
 ## mongoose
 https://mongoosejs.com/docs/connections.html
+
+## webpack
+https://webpack.js.org/
