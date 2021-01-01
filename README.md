@@ -25,3 +25,6 @@ https://codepen.io/
 
 ## passportjs
 http://www.passportjs.org/
+
+## passport-local-mongoose
+https://github.com/saintedlama/passport-local-mongoose
