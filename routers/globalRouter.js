@@ -7,6 +7,7 @@ import {
   getLogin,
   postLogin,
   logout,
+  getMe,
 } from "../controllers/userController";
 import { onlyPublic, onlyPrivate } from "../middlewares";
 
@@ -21,5 +22,7 @@ globalRouter.get(routes.login, onlyPublic, postLogin);
 globalRouter.get(routes.home, home);
 globalRouter.get(routes.search, search);
 globalRouter.get(routes.logout, onlyPrivate, logout);
+
+globalRouter.get(routes.me, onlyPrivate, getMe);
 
 export default globalRouter;
