@@ -28,3 +28,6 @@ http://www.passportjs.org/
 
 ## passport-local-mongoose
 https://github.com/saintedlama/passport-local-mongoose
+
+## random key gen
+https://randomkeygen.com/
