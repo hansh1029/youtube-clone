@@ -19,11 +19,7 @@ const app = express();
 
 const CookieStore = MongoStore(session);
 
-app.use(
-  helmet({
-    contentSecurityPolicy: false,
-  })
-);
+app.use(helmet());
 app.set("view engine", "pug");
 app.use("/uploads", express.static("uploads"));
 app.use("/static", express.static("static"));
@@ -44,11 +40,11 @@ app.use(passport.session());
 
 app.use(localsMiddleware);
 
-//resolve video erorr because of helmet version up
+//resolve unsafe-eval in main.js
 app.use(function (req, res, next) {
   res.setHeader(
     "Content-Security-Policy",
-    "script-src 'self' https://archive.org"
+    "script-src 'self' 'unsafe-eval'"
   );
   return next();
 });

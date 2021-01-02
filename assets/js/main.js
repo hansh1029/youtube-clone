@@ -7,7 +7,6 @@ const registerView = () => {
   fetch(`/api/${videoId}/view`, {
     method: "POST",
   });
-  console.log("add view");
 };
 
 function init() {
