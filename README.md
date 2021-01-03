@@ -34,3 +34,6 @@ https://github.com/saintedlama/passport-local-mongoose
 
 ## random key gen
 https://randomkeygen.com/
+
+## heroku-config
+https://github.com/xavdid/heroku-config
