@@ -5,7 +5,7 @@ import "./models/Video";
 import "./models/Comment";
 import "./models/User";
 
-mongoose.connect(process.env.MONGO_URL, {
+mongoose.connect(process.env.MONGO_URL_PROD, {
   useNewUrlParser: true,
   useFindAndModify: false,
 });

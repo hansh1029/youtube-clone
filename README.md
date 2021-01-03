@@ -11,6 +11,9 @@ https://babeljs.io/docs/en/babel-generator
 ## mongodb
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 
+## mongodb atlas
+https://www.mongodb.com/cloud/atlas
+
 ## mongoose
 https://mongoosejs.com/docs/connections.html
 
